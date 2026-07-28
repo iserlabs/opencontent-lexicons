@@ -1,0 +1,17 @@
+{
+  "name": "@opencontent/lexicons",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Governance repo and schema documents for the social.opencontent.* lexicon commons.",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run --passWithNoTests",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@atproto/lexicon": "^0.7.7",
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  }
+}
