@@ -11,7 +11,7 @@ import labelDefs from "../lexicons/com/atproto/label/defs.json" with { type: "js
 // com.atproto.label.defs#selfLabels) — hence the local copies in
 // lexicons/com/atproto/. This is the minimal "does the commons parse and
 // self-resolve" check; the full behavioral test suite lives in the
-// open-portfolio consumer repo.
+// openportfolio consumer repo.
 const docs = [photograph, collection, site, strongRef, labelDefs] as LexiconDoc[];
 
 describe("social.opencontent.* lexicon set", () => {
