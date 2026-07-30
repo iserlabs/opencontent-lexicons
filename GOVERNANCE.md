@@ -15,8 +15,10 @@ and every record published under the steward account.
 
 This is a deliberate choice, not a placeholder for "governance we'll add
 later." A young vocabulary needs a single accountable decision-maker to
-move fast and keep the schemas coherent. Section 4 below describes how
-that authority can hand off later without touching the vocabulary itself.
+move fast and keep the schemas coherent. The
+[standardization exit](#standardization-exit-how-the-bdfl-role-transfers)
+section below describes how that authority can hand off later without
+touching the vocabulary itself.
 
 ## How to propose a change
 

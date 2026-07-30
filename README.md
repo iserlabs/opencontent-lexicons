@@ -126,13 +126,13 @@ than something they need to special-case or error on.
 
 ## Validation
 
-Schemas are validated to parse and self-resolve via `@atproto/lexicon`
-in `src/schemas.test.ts` — this checks that every `$ref` in the set
-resolves (including the `com.atproto.repo.strongRef` and
-`com.atproto.label.defs#selfLabels` copies under `lexicons/com/atproto/`,
-included here so the lexicon set is self-resolving without depending on
-an external copy of core ATProto schemas) and that a well-formed record
-of each type validates while a malformed one doesn't.
+`src/schemas.test.ts` validates the set with `@atproto/lexicon`: every
+schema document parses, every `$ref` in the set resolves, and a
+well-formed record of each type validates while a malformed one doesn't.
+The copies of `com.atproto.repo.strongRef` and `com.atproto.label.defs`
+under `lexicons/com/atproto/` are included so the lexicon set is
+self-resolving without depending on an external copy of the core ATProto
+schemas.
 
 ```sh
 pnpm install
