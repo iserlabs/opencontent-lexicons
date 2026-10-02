@@ -12,7 +12,7 @@
   "devDependencies": {
     "@atproto/lexicon": "^0.7.7",
     "typescript": "^5.8.0",
-    "vitest": "^3.2.0"
+    "vitest": "^4.0.0"
   },
   "packageManager": "pnpm@10.12.1"
 }
